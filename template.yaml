@@ -38,16 +38,16 @@ Parameters:
   # For Amplify Console frontend hosting
   Repository:
     Type: String
-    Description: https://github.com/jcrump/lambda-refarch-webapp.git
+    Description: a Description
   Branch:
     Type: String
     Description: GitHub Branch
     Default: master
   OauthToken:
     Type: String
-    Description: https://github.com/jcrump/lambda-refarch-webapp.git
+    Description: GitHub Repository URL
     NoEcho: true
-
+  
 Resources:
 
 #cognito declaration
